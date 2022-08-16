@@ -1,0 +1,158 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+  background: #202020;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  margin-left: 35px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 100ms ease-in-out;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+nav {
+  padding: 51px 0 0;
+}
+
+.logo {
+  max-height: 24px;
+}
+
+nav a:hover,
+li.active a {
+  color: blueviolet;
+}
+
+.info {
+  position: relative;
+  text-align: center;
+}
+
+.tag {
+  position: absolute;
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+  color: white;
+
+  top: 200px;
+
+  left: 400px;
+}
+
+.tag h3 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.tag h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+}
+
+.tag p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 25px;
+  width: 550px;
+}
+
+.btn-branding {
+  background: white;
+  color: #272142;
+  font-weight: bold;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 30px;
+  margin-top: 45px;
+}
+.btn-branding:hover {
+  background: blueviolet;
+}
+
+.photos {
+  width: 1000px;
+}
+
+.copiright {
+  color: white;
+}
+
+.social-links a {
+  margin: 0px 6px;
+  color: white;
+  line-height: 2;
+  padding: 0px 5px;
+  font-size: 18px;
+}
+
+.social-links a:hover {
+  color: blueviolet;
+}
+
+.change-size116 {
+  height: 230px;
+}
+
+.change-size112 {
+  height: 280px;
+}
+.change-size109 {
+  height: 225px;
+  width: 303px;
+}
+
+.label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #f65282;
+  font-size: 18px;
+  line-height: 22px;
+}
+.me-label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 64px;
+}
+
+.desc p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.about-me-info {
+  width: 1100px;
+  margin-left: 40px;
+}
+
+.about-me-info p {
+  width: 500px;
+}
