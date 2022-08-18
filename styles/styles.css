@@ -47,15 +47,9 @@ li.active a {
 
 .tag {
   position: absolute;
-
   font-size: 20px;
-
-  font-weight: bold;
-
   color: white;
-
   top: 200px;
-
   left: 400px;
 }
 
@@ -67,7 +61,7 @@ li.active a {
   line-height: 28px;
 }
 
-.tag h1 {
+h1 {
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -117,7 +111,8 @@ li.active a {
 }
 
 .change-size116 {
-  height: 230px;
+  height: 270px;
+  width: 270px;
 }
 
 .change-size112 {
@@ -155,4 +150,41 @@ li.active a {
 
 .about-me-info p {
   width: 500px;
+}
+
+.gallery {
+  width: 1200px;
+
+  text-align: center;
+}
+
+.contacts {
+  color: white;
+}
+
+.contact-labels {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #f65282;
+  line-height: 17px;
+}
+
+.contact-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer {
+  margin-top: 350px;
+}
+
+@media (max-width: 1404px) {
+  .info h1 {
+    font-size: 20px;
+  }
+
+  .tag {
+    display: none;
+  }
 }
